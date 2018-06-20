@@ -1,4 +1,4 @@
-package ontmanager;
+package com.weedahm.ontmanager;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -20,7 +20,7 @@ public class CSVParser {
 		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "MS949");
 		BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 		
-		ArrayList<String> result = new ArrayList<>();
+		ArrayList<String> result = new ArrayList<String>();
 		
 		while ((line = bufferedReader.readLine()) != null) {
 			result.add(line);

@@ -8,7 +8,7 @@ public class Main {
 	static final String TAG = "Main";
 
 	public static void main(String[] args) {
-		CSVParser csvParser = new CSVParser("C:\\Users\\������\\Desktop\\Excel\\Data Source\\180615_test.csv");
+		CSVParser csvParser = new CSVParser("C:\\Users\\정현규\\Desktop\\Excel\\Data Source\\180615_test.csv");
 		ArrayList<String> parseData = new ArrayList<String>();
 		try {
 			parseData = csvParser.parse();

@@ -2,7 +2,6 @@ package com.weedahm.ontmanager;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 
 import org.apache.jena.ontology.OntClass;
@@ -19,8 +18,8 @@ public class OntologyManager {
 	
 	private String weedahmIRI = "http://www.semanticweb.org/weedahm/ontology";
 	
-	private String demonstraionIRI = "#����";
-	private String symptomIRI = "#����";
+	private String demonstraionIRI = "#변증";
+	private String symptomIRI = "#증상";
 	
 	private String hasSymptomURI = "#hasSymptom";
 	private String isSymptomOfURI = "#isSymptomOf";
@@ -65,7 +64,6 @@ public class OntologyManager {
 		}
 	}
 	
-	// ���� ��з� �߰�
 	private void oneLineToOntology(String[] data) {
 		int symptomsLength = data.length - 2;
 		
